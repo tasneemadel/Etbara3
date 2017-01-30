@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@color/primary</item>
+    </style>
+
+
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/primary</item>
+
+        <item name="colorControlNormal">#CCCCCC</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+        <item name="colorControlHighlight">#FFFFFF</item>
+        <item name="android:textColorHint">#CCCCCC</item>
+
+
+
+        <!-- <item name="android:colorButtonNormal">@color/primary_darker</item> -->
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:textColorPrimary">#CCCCCC</item>
+        <item name="android:background">#E43F3F</item>
+    </style>
+
+
+
+
+    <style name="AppTheme.Splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+
+    <style name="TextField">
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="RedButton">
+        <item name="android:background">@drawable/red_button_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RedText">
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+</resources>
